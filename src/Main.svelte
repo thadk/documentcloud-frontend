@@ -10,6 +10,8 @@
   // Patch poll events
   import "@/ticker/ticker";
 
+  console.log("hello world");
+
   // Set up routes
   router.notFound = routes[0];
   router.routeFunc = routes[1];
